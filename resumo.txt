@@ -1,0 +1,58 @@
+CSS - Especifica a apresentação dos elementos da página HTML.
+Usado para separar o layout do conteúdo e estrutura da página.
+
+Estilos Inline
+<p style="color:blue; font-size:12px" >
+
+Não separa estilos de apresentação
+
+Estilos embarcados
+
+<head>
+<style>
+.icomp{
+font-size:26px;
+color: blue
+}
+</head>
+
+Estilos externos
+cacheamento do browser
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+Seletores CSS
+Seletores de Elemento
+Seletores de ID
+
+box-shadow: hoffset voffset blur spread color inset
+box-shadow: 4px 4px 10px  2px gray inset
+
+overflow-x
+overflow-y
+auto
+hidden
+scroll
+visible
+
+display: inline
+block
+inline-block
+none - elemento não aparece na pagina
+
+float:left
+right
+none
+
+position:static 
+relative
+absolute
+fixed
+
+z-index
+
+Media Queries
+
+<link rel="stylesheet" href="impressao.css" media="all">
